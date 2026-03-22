@@ -10,7 +10,7 @@ logging.basicConfig(
 
 class AppController:
     def run(self) -> None:
-        logging.info("starting remote-app")
+        logging.info("starting remote-app (version 1.0.2)")
         while True:
             logging.info("Running %s", datetime.now())
             time.sleep(30)
