@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+version
+src/remote_app/__init__.py
+src/remote_app/__main__.py
+src/remote_app/app.py
+src/remote_app.egg-info/PKG-INFO
+src/remote_app.egg-info/SOURCES.txt
+src/remote_app.egg-info/dependency_links.txt
+src/remote_app.egg-info/top_level.txt
