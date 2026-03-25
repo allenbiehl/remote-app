@@ -17,7 +17,7 @@ git push origin
 3. Create tag
 
 ```bash
-VER=1.0.3; git tag ${VER} -a -m "Release version ${VER}"; git push origin ${VER}
+VER=1.0.4; git tag ${VER} -a -m "Release version ${VER}"; git push origin ${VER}
 ```
 
 ## Delete tag
