@@ -3,7 +3,9 @@ from importlib.metadata import version
 from multiprocessing.synchronize import Event as EventClass
 import time
 
-from remote_app.utils.logging_utils import root_logger as logger
+from remote_app.utils.logging_utils import get_logger
+
+logger = get_logger("AppController")
 
 
 class AppController:
