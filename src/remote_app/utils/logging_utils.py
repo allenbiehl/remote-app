@@ -34,7 +34,7 @@ def create_logger(name: str, log_format: Optional[str] = None):
     """
     if not log_format:
         log_prefix = get_log_prefix()
-        log_format = f"{log_prefix}%(asctime)s - %(levelname)s - %(message)s"
+        log_format = f"::{log_prefix}%(asctime)s [%(levelname)s] %(name)s: %(message)s"
 
     logger = logging.getLogger(name)
     logger.setLevel(logging.INFO)
